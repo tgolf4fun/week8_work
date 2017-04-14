@@ -167,6 +167,7 @@ blockquote span {
 }
 #main {
   margin-top: 80px;
+  width: 100%;
 }
 #posts {
   width: 73%;
@@ -291,6 +292,29 @@ footer p {
 #contact {
   width: 70%;
 }
+.regHead {
+
+    }
+.frm-style {
+    display: block;
+    padding: 20px 10px;
+    margin: 10px;
+    }
+
+form {
+    width: 100%;
+    /*margin: 0px 0px 0px 10px;*/
+    }
+
+.btn {
+    margin: 20px;
+    }
+
+input{
+    border: none;
+    border-bottom: thin solid #000;
+
+    }
 
 @media only screen and (max-width: 768px) {
   body {
@@ -367,6 +391,7 @@ footer p {
   #sidebar img {
     display: none;
   }
+
 }
 
 

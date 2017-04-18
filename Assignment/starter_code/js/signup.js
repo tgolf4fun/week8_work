@@ -11,10 +11,8 @@ function GetURLParameter(sParam)
         }
     }
 }
-var query = GetURLParameter('query');
+var myName = GetURLParameter('name');
+var myName = myName.replace("+", " ");
 
- 
- $('#search').html("Entered search term was:" + " " + query );
-
-
-console.log(query);
+ $('#signup').html("Thank you" + " " + myName + " " + "the requested information will be sent to you shortly");
+console.log(myName);

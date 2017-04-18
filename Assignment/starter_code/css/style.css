@@ -315,6 +315,12 @@ input{
     border-bottom: thin solid #000;
 
     }
+#signup {
+    font-size: 38px;
+    margin: 30px;
+    padding: 50px;
+    color: #000;
+    }
 
 @media only screen and (max-width: 768px) {
   body {
